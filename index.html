@@ -15,24 +15,26 @@
   <body>
       <div class="quiz">
         <div class="quiz__head">
-            <h2 class="quiz__title">Question</h2>
+            <h2 class="quiz__title" id="question">Question</h2>
             <form class="quiz__form" id="form">
-                <label for="text_a">
-                    <input type="radio" name="answer" value="a" id="text_a">
-                    answer
-                </label>
-                <label for="text_b">
-                    <input type="radio" name="answer" value="b" id="text_b">
-                    answer
-                </label>
-                <label for="text_c">
-                    <input type="radio" name="answer" value="c" id="text_c">
-                    answer
-                </label>
-                <label for="text_d">
-                    <input type="radio" name="answer" value="d" id="text_d">
-                    answer
-                </label>
+                <ul class="quiz__items">
+                    <li class="quiz__item">
+                        <input type="radio" name="answer" value="a" id="text_a">
+                        <label for="text_a">answer</label>
+                    </li>
+                    <li class="quiz__item">
+                        <input type="radio" name="answer" value="b" id="text_b">
+                        <label for="text_b">answer</label>
+                    </li>
+                    <li class="quiz__item">
+                        <input type="radio" name="answer" value="c" id="text_c">
+                        <label for="text_c">answer</label>
+                    </li>
+                    <li class="quiz__item">
+                        <input type="radio" name="answer" value="d" id="text_d">
+                        <label for="text_d">answer</label>
+                    </li>
+                </ul>
             </form>
         </div>
         <div class="quiz__btn">
